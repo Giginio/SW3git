@@ -3,8 +3,8 @@ import numpy as np
 import matplotlib.pyplot as plt
 
 # Create a DataFrame with random numbers
-data = {'A': np.random.rand(50),
-        'B': np.random.rand(50)}
+data = {'A': np.random.rand(50) + 1,
+        'B': np.random.rand(50) + 1}
 
 df = pd.DataFrame(data)
 
